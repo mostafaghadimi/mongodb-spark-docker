@@ -10,7 +10,7 @@ rm -rf /var/lib/apt/lists/*
 RUN useradd --create-home --shell /bin/bash ubuntu
 
 ENV HOME /home/ubuntu
-ENV SPARK_VERSION 2.2.0
+ENV SPARK_VERSION 2.4.3
 ENV HADOOP_VERSION 2.6
 ENV MONGO_SPARK_VERSION 2.2.0
 ENV SCALA_VERSION 2.11
