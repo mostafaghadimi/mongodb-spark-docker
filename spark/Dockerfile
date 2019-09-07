@@ -13,7 +13,7 @@ RUN useradd --create-home --shell /bin/bash ubuntu
 
 ENV HOME /home/ubuntu
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
-ENV SPARK_VERSION 2.4.3
+ENV SPARK_VERSION 2.4.4
 ENV HADOOP_VERSION 2.6
 ENV MONGO_SPARK_VERSION 2.4.1
 ENV SCALA_VERSION 2.11
